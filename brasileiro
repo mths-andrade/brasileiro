@@ -1,0 +1,6 @@
+Olá, esse é meu primeiro projeto de Data Science, onde vou analisar alguns dados do Campeonato Brasileiro no atual formato de pontos corridos e 20 times, desde 2006. Para começar, vou importar as biliotecas.
+
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import matplotlib as plt
