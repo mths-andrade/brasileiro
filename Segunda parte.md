@@ -61,6 +61,8 @@ $$
 
 Podemos dizer que a posição é o primeiro fator que tem influência direta na pontuação, mesmo que negativa.
 
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/91c1ed68-8892-43c9-8823-2b2df8ba02ce)
+
 ## Vitórias
 ![image](https://github.com/mths-andrade/brasileiro/assets/159069202/986a5099-c3da-49c4-b8a3-ac901e5271f4)
 
@@ -76,6 +78,8 @@ $$
 
 A vitória é outro dos fatores que têm influência direta na pontuação, dessa vez positiva.
 
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/ad5e206c-e88a-467c-900b-76346bc5c4fb)
+
 ## Saldo de gols
 ![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/56b22a4e-bba6-40d8-a274-1f684c9a9cf1)
 
@@ -88,6 +92,8 @@ y=-62.4+1.2x
 $$
 
 O saldo de gols é mais um dos fatores que têm influência direta positiva na pontuação.
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/e9b5ea22-e31d-4bee-a2b2-40992ac86a95)
 
 Lembrando dos histogramas da parte 1, temos dois critérios que se aproximam de uma **distribuição normal**: os empates e, principalmente, as derrotas. Vamos fazer uma avaliação mais detalhada deles.
 
@@ -163,6 +169,6 @@ Temos que os critérios que influenciam **positivamente** na pontuação são as
 Além disso, **o aproveitamento depende diretamente da pontuação**, um fato óbvio, mas que comprovamos nesse texto.
 
 Bom, aqui está o notebook do Colab com todos os comandos:
-
+[brasileirão parte 2.ipynb](https://github.com/mths-andrade/brasileiro/blob/4a32f1b07a5a6ade5334feeb7457b789b5555e90/brasileir%C3%A3o_parte_2.ipynb)
 
 Muito obrigado pela leitura de novo!
