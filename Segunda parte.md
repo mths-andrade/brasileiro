@@ -59,7 +59,7 @@ $$
 y=33.2-0.4x
 $$
 
-![image](https://github.com/mths-andrade/brasileiro/assets/159069202/3b242116-1b7f-44f8-aecb-925481e766ad)
+Podemos dizer que a posição é o primeiro fator que tem influência direta na pontuação, mesmo que negativa.
 
 ## Vitórias
 ![image](https://github.com/mths-andrade/brasileiro/assets/159069202/986a5099-c3da-49c4-b8a3-ac901e5271f4)
@@ -74,11 +74,95 @@ $$
 y=-4.3+0.4x
 $$
 
-Podemos dizer que a vitória é um dos fatores que têm influência direta na pontuação.
+A vitória é outro dos fatores que têm influência direta na pontuação, dessa vez positiva.
 
-![image](https://github.com/mths-andrade/brasileiro/assets/159069202/41ba0c94-e414-41fc-af20-442bc3f9a0f7)
+## Saldo de gols
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/56b22a4e-bba6-40d8-a274-1f684c9a9cf1)
+
+O coeficiente de determinação do saldo de gols é 0.853, então o modelo explica razoavelmente a pontuação, um bom ajuste. O p-valor do modelo é nulo, então há significância estatística nele.
+
+Vamos ver a reta ajustada desse modelo. Ela estima bastante a pontuação dado o saldo de gols.
+
+$$
+y=-62.4+1.2x
+$$
+
+O saldo de gols é mais um dos fatores que têm influência direta positiva na pontuação.
+
+Lembrando dos histogramas da parte 1, temos dois critérios que se aproximam de uma **distribuição normal**: os empates e, principalmente, as derrotas. Vamos fazer uma avaliação mais detalhada deles.
 
 ## Empates
-## Derrotas
-## Saldo de gols
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/bd83940b-88c6-4ada-b176-1a9ad60d4931)
 
+O coeficiente de determinação dos empates é 0.038, então o modelo explica quase nada da pontuação, como já devia ser esperado. O p-valor do modelo é nulo, então há significância estatística nele.
+
+Nem podemos chamar de ajuste, vamos apenas ver a reta desse modelo.
+
+Dados totalmente dispersos em volta da reta.
+
+O p-valor do teste Omnibus, como vemos acima, é de 0.803, muito maior que 0.05, nosso nível de significância, então os resíduos do modelo não se distribuem como uma normal, um fato óbvio. O p-valor do teste Jarque-Bera, 0.891, confirma o mesmo fato.
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/a02d811e-d376-4298-ba17-4cc2f41ec9be)
+
+Esse gráfico abaixo faz uma comparação de distribuições de probabilidade com a normal. Quando  as distribuições são muito próximas ou, até mesmo, iguais, esses valores, os pontinhos azuis, vão ficar bem em cima dessa reta vermelha, isso mostra que ela se distribui bem próximo de uma distribuição normal.
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/6d551ab4-0571-4d46-9606-2f13b9aa6ee2)
+
+Os dados se aproximam bastante de uma distribuição normal. Além disso, a assimetria (skew) se aproxima bastante de zero, e a curtose (curtosis) é muito próxima de 3, evidenciando a semelhança com a normal.
+
+## Derrotas
+
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/324d36f7-6b22-4f1a-bf63-a114356ea9ea)
+
+O coeficiente de determinação dos empates é 0.762, então o modelo razoavelmente bem a pontuação. O p-valor do modelo é nulo, então há significância estatística nele.
+
+Vamos ver a reta ajustada desse modelo. Ela estima de certo jeito a pontuação dadas as derrotas.
+
+O p-valor do teste Omnibus, como vemos acima, também é de 0.803, então os resíduos do modelo não se distribuem como uma normal, um fato óbvio de novo. Não é uma distribuição normal, só similar. 
+
+O p-valor do teste Jarque-Bera, também de 0.891, confirma o mesmo fato.
+
+A derrota é mais um dos fatores que têm influência direta negativa na pontuação.
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/bda91bea-d440-4af3-b45a-cfa1fae91150)
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/3579dc6d-759a-4b09-a33b-e670261af477)
+
+Esses dados também se aproximam bastante de uma distribuição normal. A assimetria e a curtose têm os mesmos valores do modelo anterior, evidenciando a semelhança com a normal.
+
+# Um exemplo de não normalidade
+
+A distribuição de frequências da posição se afasta bastante de uma normal.
+
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/52f9ef08-2c17-4397-82ed-2b38fe02d945)
+
+# Mais algumas considerações
+
+Vamos ver as regressões e distribuições de frequência das categorias relevantes para a pontuação.
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/79a5f74a-5deb-4c1d-845a-c2ca96534920)
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/6b848b9d-6172-4d70-8dfb-7468adb9e656)
+
+Vemos que a distribuição das derrotas se assemelha à forma de sino de uma **distribuição normal**, assim como a dos empates, como visto abaixo.
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/e06c105a-5ebf-465c-aa82-1e2bf636ba21)
+
+A reta de ajuste do aproveitamento explica perfeitamente a pontuação, porém o ajuste linear não é estatisticamente significativo pois o p-valor é muito grande.
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/7a777be5-b6fc-468b-a221-a65a8c853826)
+
+Para terminar essa seção, vamos ver os boxplots de cada time de acordo com as pontuações e aproveitamentos. Temos gráfico semelhantes uma vez mais.
+
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/61faf0d4-5667-4141-b522-ca1ea717f84d)
+
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/7ff7284d-bd4b-4446-9a72-3f8f595c2440)
+
+# Conclusão
+
+Temos que os critérios que influenciam **positivamente** na pontuação são as **vitórias** e o **saldo de gols**. Quanto maiores forem, **maior** será a pontuação. Os critérios que influenciam *negativamente* na pontuação são as *derrotas* e a *posição*. Quanto maiores forem, *menor* será a pontuação.
+
+Além disso, **o aproveitamento depende diretamente da pontuação**, um fato óbvio, mas que comprovamos nesse texto.
+
+Bom, aqui está o notebook do Colab com todos os comandos:
+
+
+Muito obrigado pela leitura de novo!
