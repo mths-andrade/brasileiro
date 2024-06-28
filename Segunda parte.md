@@ -42,6 +42,43 @@ Correlação total e positiva entre aproveitamento e pontuação até graficamen
 
 # Modelos de regressão
 
-Vamos começar a verificar quais critérios influem na pontuação. Para finalizar de vez essa questão do aproveitamento, será o primeiro.
+Vamos começar a verificar quais critérios influem na pontuação. Vou omitir o aproveitamento porque já verificamos a relação direta.
 
-Criei funções para gerar cada modelo e outro para exibir os resultados. 
+Criei funções para gerar cada modelo e outro para exibir os resultados.
+
+## Posição
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/6a846642-14c1-4d8a-a348-292ef822ff88)
+
+O coeficiente de determinação da posição é 0.882, o que quer dizer que o modelo linear explica 88,2% da variação da pontuação, um ótimo ajuste. O p-valor do modelo é nulo, então há significância estatística nele.
+
+Temos, logo depois dele, os intervalos de confiança. Agora vamos ver a reta ajustada do modelo.
+
+De fato a reta estima razoavelmente bem a pontuação dada a posição.
+
+$$
+y=33.2-0.4x
+$$
+
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/3b242116-1b7f-44f8-aecb-925481e766ad)
+
+## Vitórias
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/986a5099-c3da-49c4-b8a3-ac901e5271f4)
+
+O coeficiente de determinação das vitórias é 0.946, o que quer dizer que o modelo linear explica 94,6% da variação da pontuação, um ajuste quase perfeito. O p-valor do modelo é nulo, então há significância estatística nele.
+
+Temos, logo depois dele, os intervalos de confiança. Agora vamos ver a reta ajustada do modelo.
+
+A reta estima quase perfeitamente a pontuação dado o número de vitórias. Uma relação linear quase direta.
+
+$$
+y=-4.3+0.4x
+$$
+
+Podemos dizer que a vitória é um dos fatores que têm influência direta na pontuação.
+
+![image](https://github.com/mths-andrade/brasileiro/assets/159069202/41ba0c94-e414-41fc-af20-442bc3f9a0f7)
+
+## Empates
+## Derrotas
+## Saldo de gols
+
