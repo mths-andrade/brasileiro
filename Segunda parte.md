@@ -1,4 +1,4 @@
-![image](https://github.com/mths-andrade/brasileiro/assets/159069202/5ab7d133-ecc6-4b8b-a85c-c1f89d65f40d)# Introdução
+# Introdução
 
 Vamos agora discorrer sobre análise de regressão e as correlações de cada critério em relação à pontuação. Porém, antes vamos discutir sobre um ponto que deve ficar claro.
 
@@ -33,10 +33,15 @@ Vemos que **os coeficientes de correlação do aproveitamento são iguais aos da
 
 Continuando, temos agora os gráficos de dispersão de cada critério, nas diagonais, cada distribuição de frequência e, na parte inferior, cada dispersão apresenta a concentração dos dados.
 ![pairplot](https://github.com/mths-andrade/brasileiro/assets/159069202/d0b3b716-ea45-4e6c-895b-31d8034cc71d)
+
 Queremos avaliar a pontuação. Então, vamos ver mais detalhadamente essa categoria.
+
 ![pontuação](https://github.com/mths-andrade/brasileiro/assets/159069202/4adbc080-9a26-49fd-8eca-6dae6d363100)
+
 Correlação total e positiva entre aproveitamento e pontuação até graficamente.
 
 # Modelos de regressão
 
 Vamos começar a verificar quais critérios influem na pontuação. Para finalizar de vez essa questão do aproveitamento, será o primeiro.
+
+Criei funções para gerar cada modelo e outro para exibir os resultados. 
