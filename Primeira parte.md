@@ -85,7 +85,7 @@ $AP$ é o aproveitamento, $QP$, a quantidade de pontos ganhos e $QT$, a quantida
 Temos certa simetria avaliando os aproveitamentos dos times, mas não muita. As três medidas centrais são diferentes. Os registros se concentram entre 45 e  60%. Times campeões no geral têm aproveitamento acima de 60%, então podemos concluir que **a maioria do G13 está na primeira metade da tabela nesse recorte**.
 
 # Análise das médias
-Feitos esses histogramas, agora vamos avaliar as médias de cada time, seguindo a mesma ordem.
+Analisados os histogramas, agora vamos avaliar as médias de cada time, seguindo a mesma ordem.
 
 ## Posição
 ![Posição](https://github.com/mths-andrade/brasileiro/assets/159069202/83319b4d-03b1-4d67-aa57-3bdfeed33703)
