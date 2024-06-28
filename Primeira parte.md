@@ -11,7 +11,7 @@ Inicialmente, importei as bibliotecas apropriadas:
 
 Os dados estão nesse arquivo CSV: [brasileiro_tab.csv](https://github.com/mths-andrade/brasileiro/blob/86cc409655a4a91da942848d34a1d179ec25fc6d/brasileiro_tab.csv).
 
-Todo o processo está nesse notebook: [brasileirão parte 1.ipynb](https://github.com/mths-andrade/brasileiro/blob/540d6261ec42e3be58448bd8e2fae32f14b3b6eb/brasileir%C3%A3o_parte_1.ipynb).
+Todo o processo está nesse notebook: [brasileirão parte 1.ipynb](https://github.com/mths-andrade/brasileiro/blob/c6369050ef42aa488262ea624b8d6b2c964f248a/brasileir%C3%A3o_parte_1.ipynb)
 
 Abaixo, temos as primeiras estatísticas descritivas:
 
@@ -32,39 +32,41 @@ Atribuí cada média a uma variável e criei dataframes contendo a média de cad
 
 # Histogramas
 
+_Nessa seção dos histogramas, quanto mais escura a barra, maior sua frequência._
+
 ## Posição
-![Posição](https://github.com/mths-andrade/brasileiro/assets/159069202/d2faecdd-8320-42cc-884f-461ed1899ce5)
+![Posição](https://github.com/mths-andrade/brasileiro/assets/159069202/9e377396-3419-4ef4-ac8c-dd9f8119514a)
 
 Começando com a posição, temos uma grande assimetria à direita. A média e a mediana são próximas, mas a moda, o terceiro lugar, é bem menor que ambos. Temos que a maioria das ocorrências se concentra até o sétimo lugar, entre elas, grande parte está no chamado G4. Podemos concluir que os times do G13 **geralmente têm boas campanhas, no primeiro terço da tabela**.
 
 ## Pontuação
-![Pontuação](https://github.com/mths-andrade/brasileiro/assets/159069202/24c2e674-f41d-41f9-b071-82dda0001637)
+![Pontuação](https://github.com/mths-andrade/brasileiro/assets/159069202/da34099e-b06e-4a35-905d-79f7c4839ace)
 
 Continuando com a pontuação, temos maior simetria comparado à posição. A maioria dos dados está entre 50 e 60 pontos, o que é reforçado com moda, média e mediana pertencendo a esse intervalo. Os times têm, em média, **campanhas equivalentes ao fim da primeira metade da tabela em relação à pontuação**.
 
 ## Vitórias
-![Vitórias](https://github.com/mths-andrade/brasileiro/assets/159069202/dab50d25-e500-46b6-9a41-47982044266c)
+![Vitórias](https://github.com/mths-andrade/brasileiro/assets/159069202/e2306149-822f-42f3-a990-87ec6c787832)
 
 Em relação ao número de vitórias, temos uma simetria bem razoável. A maioria dos registros está entre 10 e 15 vitórias, inclusive temos a moda igual à mediana, de 15 triunfos. A média está bem próxima delas. Novamente, **esse intervalo equivale ao fim da primeira metade da tabela levando em conta as vitórias**.
 
 Temos um resultado curioso: *há uma grande frequência de cerca de 20 vitórias, um número de um candidato ao título*.
 
 ## Empates
-![Empates](https://github.com/mths-andrade/brasileiro/assets/159069202/4a09a9c8-87bb-4c0e-9295-752d80aa5442)
+![Empates](https://github.com/mths-andrade/brasileiro/assets/159069202/c28ccf6e-ba38-4245-9ac2-9af0c3bfb24b)
 
 Em relação ao número de empates, temos uma simetria ótima, já que moda e mediana são iguais, além da média também ser igual arredondando uma casa decimal. A maioria dos dados está entre 10 e 12 empates. 
 
 *Não podemos deduzir um comportamento em relação à tabela, já que times campeões tiveram campanhas com esses números, como o Palmeiras ano passado com 10 empates, ao mesmo tempo que times de meio de tabela*.
 
 ## Derrotas
-![Derrotas](https://github.com/mths-andrade/brasileiro/assets/159069202/6b2a86f6-bc7d-4951-bf69-0cd96aa83f88)
+![Derrotas](https://github.com/mths-andrade/brasileiro/assets/159069202/9673d389-fb06-42b4-bcf7-3ec5d11a6d7c)
 
-Com relação às derrotas, temos mais uma simetria ótima, esta quase perfeita já que moda e mediana são iguais, além da média estar muito próxima a elas. A maioria das ocorrências está entre 12 e 15 derrotas. No geral, **esse intervalo equivale ao início da segunda metade da tabela observando as derrotas**.
+Com relação às derrotas, temos mais uma simetria ótima, esta quase perfeita já que moda e mediana são iguais, além da média estar muito próxima a elas mesmo sem arredondar a casa decimal. A maioria das ocorrências está entre 12 e 15 derrotas. No geral, **esse intervalo equivale ao início da segunda metade da tabela observando as derrotas**.
 
 _Essa categoria é a que mais se assemelha a uma **distribuição normal** (de sino), tanto numerica quanto graficamente_.
 
 ## Saldo de gol
-![Saldo de gol](https://github.com/mths-andrade/brasileiro/assets/159069202/40a3447b-9ca5-487f-8578-917f8aed011a)
+![Saldo de gol](https://github.com/mths-andrade/brasileiro/assets/159069202/f023cf8e-aa70-4bca-874e-18f7739d7238)
 
 Com relação ao saldo de gol, temos alguma simetria, com a média aproximadamente igual à mediana e a moda negativa. A maioria das ocorrências está entre 0 e 10 pontos de saldo de gol. *Não podemos ter conclusões com relação a posições na tabela pois é um critério muito fluido, times campeões podem ter saldos de gol baixos*.
 
@@ -79,7 +81,7 @@ $$
 
 $AP$ é o aproveitamento, $QP$, a quantidade de pontos ganhos e $QT$, a quantidade total. Multiplicamos por 100 porque tal número é uma porcentagem.
 
-![Aproveitamento](https://github.com/mths-andrade/brasileiro/assets/159069202/1a361491-ac02-4da9-87fe-f6bbd21eb516)
+![Aproveitamento](https://github.com/mths-andrade/brasileiro/assets/159069202/d161cba4-abd6-4b26-85d0-841d4d7d229c)
 
 Temos certa simetria avaliando os aproveitamentos dos times, mas não muita. As três medidas centrais são diferentes. Os registros se concentram entre 45 e  60%. Times campeões no geral têm aproveitamento acima de 60%, então podemos concluir que **a maioria do G13 está na primeira metade da tabela nesse recorte**.
 
