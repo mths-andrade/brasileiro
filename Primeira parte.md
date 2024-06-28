@@ -10,7 +10,7 @@ Inicialmente, importei as bibliotecas apropriadas:
 
 Os dados estão nesse arquivo CSV: [brasileiro_tab.csv](https://github.com/mths-andrade/brasileiro/blob/86cc409655a4a91da942848d34a1d179ec25fc6d/brasileiro_tab.csv).
 
-Todo o processo está nesse notebook: [brasileirão parte 1.ipynb](https://github.com/mths-andrade/brasileiro/blob/cdf11f0853720fdb93adf261cae27ce72c0f6dec/brasileir%C3%A3o_parte_1.ipynb)
+Todo o processo está nesse notebook: [brasileirão parte 1.ipynb](https://github.com/mths-andrade/brasileiro/blob/0baab0dd545e48f9749da9bb679056d087912ab2/brasileir%C3%A3o_parte_1.ipynb)
 
 Abaixo, temos as primeiras estatísticas descritivas:
 
