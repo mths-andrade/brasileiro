@@ -93,7 +93,7 @@ $$
 
 O saldo de gols é mais um dos fatores que têm influência direta positiva na pontuação.
 
-![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/e9b5ea22-e31d-4bee-a2b2-40992ac86a95)
+![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/e8d63b59-b79a-4e71-87d2-2815ff336d65)
 
 Lembrando dos histogramas da parte 1, temos dois critérios que se aproximam de uma **distribuição normal**: os empates e, principalmente, as derrotas. Vamos fazer uma avaliação mais detalhada deles.
 
@@ -169,6 +169,6 @@ Temos que os critérios que influenciam **positivamente** na pontuação são as
 Além disso, **o aproveitamento depende diretamente da pontuação**, um fato óbvio, mas que comprovamos nesse texto.
 
 Bom, aqui está o notebook do Colab com todos os comandos:
-[brasileirão parte 2.ipynb](https://github.com/mths-andrade/brasileiro/blob/4a32f1b07a5a6ade5334feeb7457b789b5555e90/brasileir%C3%A3o_parte_2.ipynb)
+[brasileirão parte 2.ipynb](https://github.com/mths-andrade/brasileiro/blob/4a32f1b07a5a6ade5334feeb7457b789b5555e90/brasileir%C3%A3o_parte_2.ipynb).
 
 Muito obrigado pela leitura de novo!
