@@ -5,7 +5,6 @@ Inicialmente, importei as bibliotecas apropriadas:
 - Pandas, para dataframes;
 - Numpy, para operações matemáticas.
 - Matplotlib, para gráficos simples;
-- Seaborn, para gráficos mais elaborados;
 - Statsmodels, para operações estatísticas.
 
 Os dados estão nesse arquivo CSV: [brasileiro_tab.csv](https://github.com/mths-andrade/brasileiro/blob/86cc409655a4a91da942848d34a1d179ec25fc6d/brasileiro_tab.csv).
