@@ -10,4 +10,4 @@ Inicialmente, importei as bibliotecas apropriadas:
 
 Os dados estão nesse arquivo CSV: [brasileiro_tab.csv](https://github.com/user-attachments/files/16023090/brasileiro_tab.csv)
 
-Todo o processo está nesse note book:
+Todo o processo está nesse notebook: brasileirão final.ipynb
