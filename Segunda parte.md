@@ -110,7 +110,7 @@ O p-valor do teste Omnibus, como vemos acima, é de 0.803, muito maior que 0.05,
 
 ![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/a02d811e-d376-4298-ba17-4cc2f41ec9be)
 
-Esse gráfico abaixo faz uma comparação de distribuições de probabilidade com a normal. Quando  as distribuições são muito próximas ou, até mesmo, iguais, esses valores, os pontinhos azuis, vão ficar bem em cima dessa reta vermelha, isso mostra que ela se distribui bem próximo de uma distribuição normal.
+Esse gráfico abaixo faz uma comparação de distribuições de probabilidade com a normal. Quando  as distribuições são muito próximas ou, até mesmo, iguais, esses valores, os pontinhos azuis, vão ficar bem em cima dessa reta vermelha, isso mostra que ela se distribui bem próxima de uma distribuição normal.
 
 ![Untitled](https://github.com/mths-andrade/brasileiro/assets/159069202/6d551ab4-0571-4d46-9606-2f13b9aa6ee2)
 
@@ -123,6 +123,10 @@ Os dados se aproximam bastante de uma distribuição normal. Além disso, a assi
 O coeficiente de determinação dos empates é 0.762, então o modelo razoavelmente bem a pontuação. O p-valor do modelo é nulo, então há significância estatística nele.
 
 Vamos ver a reta ajustada desse modelo. Ela estima de certo jeito a pontuação dadas as derrotas.
+
+$$
+y=29.3-0.3x
+$$
 
 O p-valor do teste Omnibus, como vemos acima, também é de 0.803, então os resíduos do modelo não se distribuem como uma normal, um fato óbvio de novo. Não é uma distribuição normal, só similar. 
 
