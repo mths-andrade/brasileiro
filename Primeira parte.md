@@ -145,4 +145,4 @@ Com isso, podemos terminar essa primeira parte resumindo as melhores e piores m�
 
 **O Grêmio é o time com a maior quantidade de melhores médias, três.** Portanto, _o Grêmio é o time mais equilibrado._ Entretanto, para azar dos gremistas, o time **nunca** ganhou um título nos pontos corridos.
 
-**O Vasco é o que tem maior quantidade de piores médias, cinco.** Portanto, _o Vasco é o time menos competitivo._ Isso ficou comprovado nos quatro rebaixamentos nos pontos corridos.
+**O Vasco é o que tem maior quantidade de piores médias, cinco.** Portanto, _o Vasco é o time menos competitivo._ Isso ficou comprovado com quatro rebaixamentos nos pontos corridos.
