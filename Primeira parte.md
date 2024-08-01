@@ -9,7 +9,7 @@ Inicialmente, importei as bibliotecas apropriadas:
 
 Os dados estão nesse arquivo CSV: [brasileiro_tab.csv](https://github.com/mths-andrade/brasileiro/blob/86cc409655a4a91da942848d34a1d179ec25fc6d/brasileiro_tab.csv).
 
-Todo o processo está nesse notebook: [brasileirão parte 1.ipynb](https://github.com/mths-andrade/brasileiro/blob/0baab0dd545e48f9749da9bb679056d087912ab2/brasileir%C3%A3o_parte_1.ipynb)
+Todo o processo está nesse notebook: [brasileirão parte 1.ipynb](https://github.com/mths-andrade/brasileiro/blob/8222324c6a98dd254c0e3ab1b6034f79706dbff5/brasileir%C3%A3o_parte_1.ipynb)
 
 Abaixo, temos as primeiras estatísticas descritivas:
 
@@ -87,45 +87,45 @@ Temos certa simetria avaliando os aproveitamentos dos times, mas não muita. As 
 Analisados os histogramas, agora vamos avaliar as médias de cada time, seguindo a mesma ordem.
 
 ## Posição
-![Posição](https://github.com/mths-andrade/brasileiro/assets/159069202/83319b4d-03b1-4d67-aa57-3bdfeed33703)
+![Posição](https://github.com/user-attachments/assets/5a739157-9484-4249-bf7f-cde8642dcf9e)
 
 O Grêmio tem a melhor média de posição, isto é, a mais baixa. A pior média é a do Vasco, a mais alta. 
 
 **Poucos times estão acima da média de posição, o que é um bom sinal.**
 
 ## Pontuação
-![Pontuação](https://github.com/mths-andrade/brasileiro/assets/159069202/49b6a02a-d529-41bf-895a-0894fe8ebbcd)
+![Pontuação](https://github.com/user-attachments/assets/86cacf3d-fc84-4524-8f5f-13504d581054)
 
 O Flamengo tem a melhor média de pontuação, bem próximo de Grêmio e São Paulo, provavelmente a diferença é por conta de casas decimais. A pior média é a do Vasco. 
 
 **Vários times estão acima da média geral de pontos.**
 
 ## Vitórias
-![Vitórias](https://github.com/mths-andrade/brasileiro/assets/159069202/95225d84-3e6e-41a1-953e-929251f308dc)
+![Vitórias](https://github.com/user-attachments/assets/d1c1c63b-f52e-4251-a63a-bde2edc27645)
 
 O Grêmio tem a melhor média de vitórias, bem próximo do Flamengo, diferença de casas decimais. A pior média é a do Vasco. 
 
 **Vários times também estão acima da média geral de vitórias.**
 
 ## Empates
-![Empates](https://github.com/mths-andrade/brasileiro/assets/159069202/6f6d3fd1-4041-45fa-9be6-aa7f5b42c5d9)
+![Empates](https://github.com/user-attachments/assets/3b110598-8609-4226-ba60-ce858b3bdbcf)
 
 O Corinthians tem a melhor média de empates, bem próximo do Vasco, diferença de casas decimais. A pior média é a do Atlético Mineiro.
 
 ## Derrotas
-![Derrotas](https://github.com/mths-andrade/brasileiro/assets/159069202/796a21ea-404d-48ec-8dea-035b3c813dc0)
+![Derrotas](https://github.com/user-attachments/assets/d1344f92-9068-45a4-90b3-bb1ba201b1db)
 
 O São Paulo tem a melhor média de derrotas, a mais baixa. A pior média é a do Botafogo.
 
 ## Saldo de gol
-![Saldo de gols](https://github.com/mths-andrade/brasileiro/assets/159069202/cccc352b-ec2a-44f8-b331-911bceb3649b)
+![Saldo de gol](https://github.com/user-attachments/assets/f22516c0-0b9c-45f9-8911-b251f986c305)
 
 O Grêmio tem a melhor média de saldo de gol. A pior média é a do Vasco, muito mais baixa que as outras. 
 
 **Grande parte dos times está acima da média geral de saldo de gol.**
 
 ## Aproveitamento
-![Aproveitamento](https://github.com/mths-andrade/brasileiro/assets/159069202/bfa3c1cd-58c0-4893-98f9-4db7744264d8)
+![Aproveitamento](https://github.com/user-attachments/assets/e62ff8cd-a086-4924-902b-fa08809dba7a)
 
 O Flamengo tem a melhor média de aproveitamento. A pior média é a do Vasco.
 
