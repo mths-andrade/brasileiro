@@ -13,8 +13,8 @@ A similaridade das duas distribuições de frequência é clara. Até as diferen
 
 Mesma coisa, a semelhança é óbvia. As médias e valores são idênticos.
 
-![Pontuação](https://github.com/mths-andrade/brasileiro/assets/159069202/22059268-a766-479e-ba7a-d7ae0b7c2a57)
-![Aproveitamento](https://github.com/mths-andrade/brasileiro/assets/159069202/bb1e0b2f-5532-4e58-9337-554c004444d4)
+![Pontuação](https://github.com/user-attachments/assets/9a52805e-b891-4da5-9fc3-6296be7eb0ea)
+![Aproveitamento](https://github.com/user-attachments/assets/eead67a6-01b4-4380-a174-a0d627db5361)
 
 # Correlação
 Agora, vamos ver a matriz de correlação.
